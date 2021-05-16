@@ -10,6 +10,11 @@ h1 {
   font-family: "Public Sans", sans-serif;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
 :root {
   --Dark-Blue-primary: hsl(233, 26%, 24%);
   --Lime-Green-primary: hsl(136, 65%, 51%);
@@ -18,4 +23,108 @@ h1 {
   --Light-Grayish-Blue-neutral: hsl(220, 16%, 96%);
   --Very-Light-Gray-neutral: hsl(0, 0%, 98%);
   --White-neutral: hsl(0, 0%, 100%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section.nav-bar {
+  padding: 10px 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  background: var(--White-neutral);
+  z-index: 1;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--Dark-Blue-primary);
+}
+
+.btn {
+  padding: 10px 30px;
+  background: linear-gradient(
+    to right,
+    var(--Lime-Green-primary),
+    var(--Bright-Cyan-primary)
+  );
+  border-radius: 20px;
+  color: var(--White-neutral);
+  border: none;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    to right,
+    var(--Bright-Cyan-primary),
+    var(--Lime-Green-primary)
+  );
+}
+
+/* Header section */
+
+section.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  background: var(--Very-Light-Gray-neutral);
+}
+
+section.header .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.header .container .text {
+  flex: 1 0 40%;
+  padding-left: 110px;
+}
+
+section.header .container .text h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+section.header .container .text p {
+  padding: 20px 0;
+  color: var(--Grayish-Blue-neutral);
+}
+
+section.header .container .img {
+  flex: 1 0 60%;
+  position: relative;
+}
+
+section.header .container .img img:first-child {
+  position: relative;
+  top: -10px;
+  bottom: 0;
+  right: -200px;
+  transform: scale(1.6);
+}
+
+section.header .container .img img:last-child {
+  position: absolute;
+  top: -160px;
+  right: -120px;
+  /* transform: scale(1.6); */
 }
