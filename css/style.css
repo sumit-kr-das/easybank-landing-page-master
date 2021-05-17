@@ -107,6 +107,7 @@ section.header .container .text h1 {
 section.header .container .text p {
   padding: 20px 0;
   color: var(--Grayish-Blue-neutral);
+  line-height: 1.4;
 }
 
 section.header .container .img {
@@ -128,3 +129,5 @@ section.header .container .img img:last-child {
   right: -120px;
   /* transform: scale(1.6); */
 }
+
+/* Feature section */
