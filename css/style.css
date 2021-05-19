@@ -70,6 +70,7 @@ nav ul li a {
   border-radius: 20px;
   color: var(--White-neutral);
   border: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
