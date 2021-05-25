@@ -450,7 +450,7 @@ footer .container .wrapper ul li a:hover {
   /* mobile responsive */
   section.header .container .img img:first-child {
     position: relative;
-    top: -100px;
+    top: -150px;
     transform: scale(2.5);
     bottom: 0;
     right: 20px;
