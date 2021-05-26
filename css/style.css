@@ -463,6 +463,8 @@ footer .container .wrapper ul li a:hover {
   }
 }
 .attribution {
+  max-width:1440px;
+  margin:0 auto;
   background: var(--Dark-Blue-primary);
   border: none;
   text-align: center;
