@@ -1,5 +1,7 @@
 # Frontend Mentor - Easybank landing page
 
+Test in your real device : https://cocky-almeida-fade3e.netlify.app/
+
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
